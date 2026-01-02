@@ -55,10 +55,6 @@ const socials: SocialLink[] = [
       </svg>
     ),
   },
-const socials = [
-  { href: "https://t.me/marvelousacosmos", label: "Telegram" },
-  { href: "https://mubl.uz", label: "Website" },
-  { href: "https://www.linkedin.com/company/mirzo-ulugh-beg-s-legacy", label: "LinkedIn" },
 ];
 
 export default function Footer() {
@@ -73,7 +69,6 @@ export default function Footer() {
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.08em] text-slate-200">MUBL</p>
               <p className="text-lg font-semibold text-slate-50">Mirzo Ulugh Beg&apos;s Legacy</p>
-              <p className="text-lg font-semibold text-slate-50">Mirzo Ulugh Beg's Legacy</p>
             </div>
           </div>
           <p className="text-sm leading-relaxed text-slate-300">
